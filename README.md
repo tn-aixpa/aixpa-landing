@@ -37,8 +37,11 @@ Includes a series of submodules for specific extensions:
 - [digitalhub-sdk-runtime-modelserve](https://github.com/tn-aixpa/digitalhub-sdk-runtime-modelserve): execution environment for standard AI model serving
 - [digitalhub-sdk-runtime-kfp](https://github.com/tn-aixpa/digitalhub-sdk-runtime-kfp): execution environment for Argo Workflow-based pipelines 
 - [digitalhub-sdk-runtime-dbt](https://github.com/tn-aixpa/digitalhub-sdk-runtime-dbt): execution environment for DBT-based data transformation operations
+- [digitalhub-sdk-runtime-hera](https://github.com/tn-aixpa/digitalhub-sdk-runtime-hera): execution environment for Argo Workflow-based pipelines with Hera DSL 
+- [digitalhub-sdk-runtime-flower](https://github.com/tn-aixpa/digitalhub-sdk-runtime-flower): execution environment for Flower FL Federated Learning framework 
 - [digitalhub-sdk-wrapper-dbt](https://github.com/tn-aixpa/digitalhub-sdk-wrapper-dbt): supporting library to integrate management SDK with the DBT runtime
 - [digitalhub-sdk-wrapper-kfp](https://github.com/tn-aixpa/digitalhub-sdk-wrapper-kfp): supporting library and DSL for the Argo Workflow definition on top of Kubeflow Pipelines SDK
+- [digitalhub-sdk-wrapper-hera](https://github.com/tn-aixpa/digitalhub-sdk-wrapper-hera): supporting library and DSL for the Argo Workflow definition on top of Hera SDK
 
 6. [cli](https://github.com/tn-aixpa/digitalhub-cli)
 
