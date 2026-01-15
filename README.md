@@ -97,50 +97,70 @@ A generic LLM-based document (text) classifier (template)
 
 Multilingual text classifier based on Bert model and fine-tuned on official EU legal documents (from EUR Lex portal).
 
-3. [Relation Extraction Module](https://github.com/tn-aixpa/redit)
+3. [Family Audit Classifier])(https://github.com/FluveFV/faudit-classifier)
+
+Multiclass sequence classifier based on BERT base italian, fine-tuned on selected corpora from Municipalities's Family Audit plans.
+   
+4. [Relation Extraction Module](https://github.com/tn-aixpa/redit)
 
 A relation extraction module for Tint. The project makes use of Tint (The Italian NLP Tool) for Natural Language Processing (NLP) in Italian for extracting the relation of entities.
 
-4. [PA LLM](https://github.com/tn-aixpa/llm-pa)
+5. [LLM for PA Dialogs](https://github.com/tn-aixpa/llm-pa)
 
 A generic fine-tuned Large Language Model for dialog management for Public Administration, based on LLama-3.1.
 
-5. [RAG Template](https://github.com/tn-aixpa/rag-template)
+6.[Datasets of dialogs for PA LLM](https://github.com/tn-aixpa/llm-pa-dialog-dataset) 
+
+Dataset collected and curated for the creation of the LLM model using a “fine-running” approach necessary to support the chatbot scenario around public services.
+
+7. [RAG Template](https://github.com/tn-aixpa/rag-template)
 
 A generic template for the LangChaing-based RAG services using the platform functionality (template).
 
-6. [LLM Model Fine tuner](https://github.com/tn-aixpa/llm-fine-tuner)
+8. [LLM Model Fine tuner](https://github.com/tn-aixpa/llm-fine-tuner)
 
 A lightweight framework for fine-tuning Llama-3.1-8B-Instruct, designed for efficient and reproducible training for dialogs around public services.
 
-7. [Dataset for PA dialogs](https://github.com/tn-aixpa/llm-pa-dialog-dataset)
+9. [First AID](https://github.com/tn-aixpa/api-first-AID-AIXPA)
 
-Baseline data used for training LLM for dialog managment for Public Administration.
+Human-in-the-loop data collection framework for knowledge-driven generation of synthetic dialogues using LLM prompting.
 
-8. [Dialog Annotation API](https://github.com/tn-aixpa/api-first-AID-AIXPA)
-
-A microservice for managing the collection and annotation of the dialog data for LLM training. 
-
-9. [Sentinel Tools](https://github.com/tn-aixpa/sentinel-tools)
+10. [Sentinel Tools](https://github.com/tn-aixpa/sentinel-tools)
 
 A repository of python-based tools and a container for downloading, preproccessing, and logging the ESA satelite data. 
 
-10. [RSDE Tools](https://github.com/tn-aixpa/rsde-tools)
+11. [RSDE Tools](https://github.com/tn-aixpa/rsde-tools)
 
 Baseline tool and Docker images for complex processing of the satelite data.
 
-11. [Micromind Adapter](https://github.com/tn-aixpa/micromind-adapter)
+12. [Flood Detection](https://github.com/tn-aixpa/rs-flood-mapping)
 
-A toolkit to integrate efficient image and video processing  [micromind](https://github.com/micromind-toolkit/micromind) toolkit into the platform.
+A set of analysis tools for the flood detection using remote sensing data.
 
-12. [EarlyExit Audio Transformer](https://github.com/tn-aixpa/audio-early-exit-transformer)
+13. [Deforestation](https://github.com/tn-aixpa/rs-deforestation)
+
+Python implementation for deforestation detection on satellite imagery data.
+
+14. [Landslide Analysis](https://github.com/tn-aixpa/rs-landslide-monitoring)
+
+Pipeline for Landslides detection to detect and monitor ground deformation associated with landslides using Sentinel-1 Level-2A imagery.
+
+15. [EarlyExit Audio Transformer](https://github.com/tn-aixpa/audio-early-exit-transformer)
 
 A wapper service in order to providing an Automatic Speech Recognition (ASR) solution using the Early-Exit implementation.
 
-13. [ASR](https://github.com/tn-aixpa/ASR)
+16. [Audio Speech Recognition fine tuner](https://github.com/tn-aixpa/asr-fine-tuning)
 
-Set of scripts and tools to perform Italian ASR using a WavLM E2E system; LM adaptation is also provided.
+A lightweight framework for fine-tuning speech recognition designed for efficient and reproducible training. The models that follow Whisper fine-tuning, may be directly used for OpenAI-compatible service deployment.
 
-14. [Nefertem](https://github.com/tn-aixpa/nefertem)
+17. [Micromind Adapter](https://github.com/tn-aixpa/micromind-adapter)
+
+A toolkit to integrate efficient image and video processing  [micromind](https://github.com/micromind-toolkit/micromind) toolkit into the platform.
+
+18. [Nefertem](https://github.com/tn-aixpa/nefertem)
 
 A generic library used as a container for for data quality processing functionality.
+
+19. [Digital Twin Model](https://github.com/tn-aixpa/dt-model)
+
+DT Model is Civic-Digital-Twins modeling framework. The framework is designed to support defining digital twins models and evaluating them in simulated environment with varying contextual conditions.
